@@ -1,0 +1,33 @@
+#form {
+    max-height: max-content;
+    width: 100%;
+    background-color: rgb(176,197,114);
+    padding: 20px;
+  }
+  
+  #heading1 {
+    color: rgb(39,43,25);
+    padding-bottom: 1.875rem;
+    border-bottom: 2px solid rgb(222, 228, 205);
+  }
+  
+  p {
+    color: #bf1650;
+    padding-top: 0.6125rem;
+  }
+  
+  p::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+  #submit_button {
+    width: 100%;
+    max-width: 200px;
+    height: 3.75rem;
+    border-radius: 6.25rem;
+    background-color: rgb(154,194,61);
+    color: white;
+    font-size: 1.25rem;
+  }
+  
